@@ -1,33 +1,45 @@
 
 {
-  "name": "经典空当接龙 Pro",
-  "short_name": "空当接龙",
-  "description": "高品质移动端优化的经典空当接龙游戏，支持离线运行。",
+  "name": "经典蜘蛛空当接龙",
+  "short_name": "蜘蛛接龙",
+  "description": "专业级移动端优化的经典纸牌游戏，支持离线运行、撤销及难度选择。",
+  "lang": "zh-CN",
+  "dir": "ltr",
   "start_url": "./index.html",
   "display": "standalone",
+  "display_override": ["window-controls-overlay", "minimal-ui"],
   "orientation": "portrait",
   "background_color": "#1a472a",
   "theme_color": "#1a472a",
   "categories": ["games", "entertainment"],
-  "id": "com.classic.freecell.mobile",
+  "id": "com.classic.spider.freecell.v1",
+  "prefer_related_applications": false,
   "icons": [
     {
-      "src": "https://cdn-icons-png.flaticon.com/512/2040/2040523.png",
+      "src": "https://cdn-icons-png.flaticon.com/512/826/826070.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://cdn-icons-png.flaticon.com/512/2040/2040523.png",
+      "src": "https://cdn-icons-png.flaticon.com/512/826/826070.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://cdn-icons-png.flaticon.com/512/2040/2040523.png",
+      "src": "https://cdn-icons-png.flaticon.com/512/826/826070.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "新游戏",
+      "url": "./index.html?action=new",
+      "description": "立即开始一局新的纸牌游戏",
+      "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/826/826070.png", "sizes": "192x192" }]
     }
   ],
   "screenshots": [
@@ -36,7 +48,14 @@
       "sizes": "1080x1920",
       "type": "image/jpeg",
       "form_factor": "narrow",
-      "label": "游戏界面"
+      "label": "移动端游戏画面"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1580519542036-c47de6196ba5?auto=format&fit=crop&q=80&w=1920",
+      "sizes": "1920x1080",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "桌面端布局"
     }
   ]
 }
