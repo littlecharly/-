@@ -1,0 +1,6 @@
+{
+  "name": "空当接龙",
+  "description": "A fully functional, elegant recreation of the classic Windows FreeCell game with undo, move tracking, and automated foundation placement.",
+  "requestFramePermissions": [],
+  "vibration": true
+}

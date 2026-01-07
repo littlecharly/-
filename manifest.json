@@ -1,0 +1,18 @@
+
+{
+  "name": "经典空当接龙",
+  "short_name": "空当接龙",
+  "description": "移动端优化的经典空当接龙游戏",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1a472a",
+  "theme_color": "#1a472a",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2040/2040523.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
