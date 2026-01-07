@@ -1,18 +1,42 @@
 
 {
-  "name": "经典空当接龙",
+  "name": "经典空当接龙 Pro",
   "short_name": "空当接龙",
-  "description": "移动端优化的经典空当接龙游戏",
+  "description": "高品质移动端优化的经典空当接龙游戏，支持离线运行。",
   "start_url": "./index.html",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#1a472a",
   "theme_color": "#1a472a",
+  "categories": ["games", "entertainment"],
+  "id": "com.classic.freecell.mobile",
   "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2040/2040523.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
     {
       "src": "https://cdn-icons-png.flaticon.com/512/2040/2040523.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2040/2040523.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://images.unsplash.com/photo-1580519542036-c47de6196ba5?auto=format&fit=crop&q=80&w=1080",
+      "sizes": "1080x1920",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "游戏界面"
     }
   ]
 }
